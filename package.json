@@ -8,12 +8,17 @@
   },
   "dependencies": {
     "@expo/vector-icons": "6.3.1",
+    "native-base": "2.4.5",
     "react": "16.3.0-alpha.1",
     "react-native": "0.54.4",
     "react-native-banner": "^0.1.0",
+    "react-native-deprecated-custom-components": "facebookarchive/react-native-custom-components",
     "react-native-device-info": "^0.21.5",
+    "react-native-parallax-scroll-view": "^0.21.3",
+    "react-native-storage": "0.1.4",
     "react-native-tab-view": "^1.0.2",
-    "react-navigation": "^1.5.11"
+    "react-native-video": "1.0.0",
+    "react-navigation": "^2.6.2"
   },
   "devDependencies": {
     "babel-jest": "22.4.3",

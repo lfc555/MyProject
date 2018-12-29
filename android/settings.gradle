@@ -1,5 +1,11 @@
 rootProject.name = 'MyProject'
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android')
 
+/*
+include ':react-native-video'
+project(':react-native-video').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-video/android-exoplayer')
+*/
 include ':app'
 include ':react-native-device-info'
 project(':react-native-device-info').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-device-info/android')

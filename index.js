@@ -15,6 +15,13 @@ import { AppRegistry } from 'react-native';
 //import FetchNetData from "./demo/02_Fetch_demo/FetchNetData";
 //import BannerTest from "./demo/03_library_demo/BannerTest";
 //import TopTabViewTest from "./demo/03_library_demo/tab_demo/TopTabViewTest";
-import BottomTabViewTest from "./demo/03_library_demo/tab_demo/BottomTabViewTest";
+//import BottomTabViewTest from "./demo/03_library_demo/tab_demo/BottomTabViewTest";
+//import ScrollViewTest from "./demo/05_scroll_demo/ScrollViewTest";
+//import ListViewTest from "./demo/05_scroll_demo/ListViewTest";
+//import TextInputTest from "./demo/06_input_demo/TextInputTest";
+//import StartUp from "./demo/eyepetizer_demo/StartUp";
+import OldNavigationTest from "./demo/07_navigation_demo/OldNavigationTest";
 
-AppRegistry.registerComponent("MyProject", () => BottomTabViewTest);
+
+console.log(5555);
+AppRegistry.registerComponent("MyProject", () => OldNavigationTest);
